@@ -1,0 +1,41 @@
+:root {
+  --color-background: #f3f3f3;
+  --color-background-nav: #2b3d50;
+  --color-background-home: #344960;
+  --color-text-light: #ededed;
+  --color-text-title: #ff5555;
+  --color-text-dark: #3d3d3d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--white);
+}
+
+body,
+input,
+select,
+textarea,
+button {
+  font: sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: filter 0.2s;
+}
+
+a:hover {
+  filter: brightness(0.8);
+}
